@@ -1,0 +1,19 @@
+{
+  "name": "studbud",
+  "version": "1.0.0",
+  "description": "StudBud WebApp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivv1/studbud.git"
+  },
+  "author": "Shivani Chand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivv1/studbud/issues"
+  },
+  "homepage": "https://github.com/shivv1/studbud#readme"
+}
