@@ -1,5 +1,61 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&family=Open+Sans:wght@500&display=swap";
 body {
-  background-color: red;
+  background-color: #5f536e;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li, a {
+  color: #fff;
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10px;
+  display: flex;
+}
+
+.logo {
+  cursor: pointer;
+  width: 130px;
+  height: 40px;
+  padding-left: 20px;
+}
+
+.navbar li {
+  padding: 0 40px;
+  display: inline-block;
+}
+
+.navbar li a {
+  transition: all .3s;
+}
+
+.navbar li a:hover {
+  color: #bd97cc;
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  color: #fff;
+  padding-left: 15px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 800;
 }
 
 /*# sourceMappingURL=index.c74267d1.css.map */
